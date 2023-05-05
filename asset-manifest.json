@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Calm/static/css/main.90fbd078.css",
+    "main.js": "/Calm/static/js/main.b3eb306c.js",
+    "static/media/night.mp3": "/Calm/static/media/night.ab4e5fb7042961bf40fc.mp3",
+    "static/media/bg.jpg": "/Calm/static/media/bg.7bb27b5bdb6850cbed2e.jpg",
+    "index.html": "/Calm/index.html",
+    "main.90fbd078.css.map": "/Calm/static/css/main.90fbd078.css.map",
+    "main.b3eb306c.js.map": "/Calm/static/js/main.b3eb306c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90fbd078.css",
+    "static/js/main.b3eb306c.js"
+  ]
+}
