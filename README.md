@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+<!-- Improved compatibility of back to top link: See: https://github.com/Shahil9728/Calm/ -->
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Shahil9728/Calm">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center"><a href="https://calmyou.netlify.app" target="_blank">Calm</a></h3>
+  <p align="center">
+    <br />
+    <br />
+    <a href="https://github.com/Shahil9728/Calm/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Shahil9728/Calm/issues">Request Feature</a>
+  </p>
+</div>
 
-### `npm start`
+### TutoTube
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project Link: [https://calmyou.netlify.app](https://calmyou.netlify.app)
+Must visit it for better view !🥰 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Introduction
 
-### `npm test`
+Calm is a music streaming platform designed to help you relax and fall asleep peacefully. With a wide variety of soothing music tracks, Calm is the ultimate solution for anyone looking to unwind and de-stress after a long day. Our platform is easy to use, with a simple and intuitive interface that allows you to browse and select your favorite tracks with ease. Our music is carefully crafted to promote relaxation and calmness, helping you to fall asleep faster and stay asleep longer. Our team of experienced developers is committed to providing you with the best possible experience, and we are always working to improve our platform and add new features. Give Calm a try and experience the benefits of a good night's sleep.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+## Step 1
+Clone the Github Repository
+```shell
+git clone https://github.com/Shahil9728/Calm
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Step 2
+And write start the local server
+```shell
+npm run start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- IMAGES -->
+### WEBSITe SCREENSHOTS
 
-### `npm run eject`
+![Alt image](public/ss1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built With
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This section lists about the languages used in this project .
 
-## Learn More
+* ![REACT JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![CSS](https://img.shields.io/badge/css-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTACT -->
+## Contact
 
-### Analyzing the Bundle Size
+Your Name - [@Shahil9728](https://twitter.com/Shahil9728) - shahilverma91383@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Project Link: [https://tutotube-frontend.onrender.com](https://tutotube-frontend.onrender.com)
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

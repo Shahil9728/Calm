@@ -76,7 +76,7 @@ const Card = () => {
             </div>
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails style={{width:"100%"}}>
           <Typography>
             <div className="card-player">
               <div className="track-icons">
