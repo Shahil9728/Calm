@@ -70,7 +70,7 @@ This section lists about the languages used in this project .
 
 Your Name - [@Shahil9728](https://twitter.com/Shahil9728) - shahilverma91383@gmail.com
 
-Project Link: [https://tutotube-frontend.onrender.com](https://tutotube-frontend.onrender.com)
+Project Link: [https://calmyou.netlify.app/](https://calmyou.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
