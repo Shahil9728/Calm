@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 .card-div {
-    background-color: #004463ae;
-    color: white;
-    margin: 3rem;
-    margin-top: 0rem !important;
-    padding: 3rem;
-    padding-bottom: 1.5rem !important;
+    background-color: #004463ae !important;
+    color: white !important;
+    margin: 3rem !important;
+    margin-top: 1rem !important;
+    padding: 1rem !important;
+    padding-bottom: 1rem !important;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -24,28 +24,31 @@
 }
 
 .card-img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    flex: 1;
     filter: brightness(50%);
-    border-radius: 25px !important;
+    border-radius: 10px !important;
     position: relative;
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 .img-text {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Dancing Script', cursive;
     font-weight: 800;
     position: absolute;
-    top: 57% !important;
-    left: 23% !important;
+    top: 50% !important;
+    left: 10% !important;
     transform: translate(-50%, -50%) !important;
 }
 
 .card-text {
+    flex: 3;
     display: flex;
+    width: 100% !important;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem !important;
     width: 175% !important;
 }
@@ -76,8 +79,20 @@
     text-align: left;
 }
 
-.card-player {
+.css-pwcg7p-MuiCollapse-root {
     width: 100%;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+    border-radius: 10px;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+    width: auto;
+}
+
+.card-player {
+    width: 100% !important;
     padding-left: 1rem;
     padding-right: 1rem;
     display: flex;
@@ -142,4 +157,10 @@ ion-icon {
 .track-icons button {
     border: none;
     background: none;
+}
+
+
+.apexcharts-tooltip {
+    background: #000000  !important;
+    color: white;
 }

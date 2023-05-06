@@ -1,6 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Card.css'
 import audiofile from './night.mp3'
+import Typography from "@mui/material/Typography";
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Graph from './Graph';
 
 const Card = () => {
   const audioRef = useRef(new Audio(audiofile));
@@ -41,53 +47,63 @@ const Card = () => {
   };
 
   const progressBarWidth = (currentTime / duration) * 100;
-
-
   return (
-    <div className='card-div'>
-      {/* <audio ref={audioRef} src="./night.mp3"></audio> */}
-      <div className="card-content">
-        <div>
-          <img src="card1.png" alt="" className="card-img" />
-          <p className="img-text">Blue <br /> Gold</p>
-        </div>
-        <div className="card-text">
-          <div className="head">
-            <div className="card-heading">
-              <p className="time-head">Sleep Story  <span className="time">24 min</span> </p>
-              <h1 className="heading">Blue Gold</h1>
-              <p className="time-head">Stephen Fry</p>
+    <>
+      <Accordion className='card-div'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon style={{ color: 'white' }} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>
+            <div className="card-content">
+              <div>
+                <img src="card1.png" alt="" className="card-img" />
+                <p className="img-text">Blue <br /> Gold</p>
+              </div>
+              <div className="card-text">
+                <div className="head">
+                  <div className="card-heading">
+                    <p className="time-head">Sleep Story  <span className="time">3 min</span> </p>
+                    <h1 className="heading">Blue Gold</h1>
+                    <p className="time-head">Stephen Fry</p>
+                  </div>
+                </div>
+                <div className="graph">
+                  <Graph />
+                </div>
+              </div>
             </div>
-            {/* <img src="track.gif" alt="" /> */}
-          </div>
-          <div className="graph">
-            <img src="graph1.png" alt="" className="graph" />
-          </div>
-        </div>
-      </div>
-      <div className="card-player">
-        <div className="track-icons">
-          <ion-icon name="shuffle"></ion-icon>
-          <div className="play-div">
-            <ion-icon name="play-skip-back"></ion-icon>
-            <div className="pause">
-              <button onClick={stopmusic}>
-                {isPlaying ? <ion-icon name="pause"></ion-icon> : <ion-icon name="play"></ion-icon>}
-              </button>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <div className="card-player">
+              <div className="track-icons">
+                <ion-icon name="shuffle"></ion-icon>
+                <div className="play-div">
+                  <ion-icon name="play-skip-back"></ion-icon>
+                  <div className="pause">
+                    <button onClick={stopmusic}>
+                      {isPlaying ? <ion-icon name="pause"></ion-icon> : <ion-icon name="play"></ion-icon>}
+                    </button>
+                  </div>
+                  <ion-icon name="play-skip-forward"></ion-icon>
+                </div>
+                <ion-icon name="volume-high"></ion-icon>
+              </div>
+              <div className="progressbar">
+                <div className="progress" style={{ width: `${progressBarWidth}%` }}></div>
+              </div>
+              <div className="track-time">
+                <div className="start-time">{formatTime(currentTime)}</div>
+                <div className="end-time">{formatTime(duration)}</div>
+              </div>
             </div>
-            <ion-icon name="play-skip-forward"></ion-icon>
-          </div>
-          <ion-icon name="volume-high"></ion-icon>
-        </div>
-        <div className="progressbar">
-          <div className="progress" style={{ width: `${progressBarWidth}%` }}></div>
-        </div>
-        <div className="track-time">
-          <div className="start-time">{formatTime(currentTime)}</div>
-          <div className="end-time">{formatTime(duration)}</div>
-        </div>
-      </div>
-    </div>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    </>
   )
 }
 
