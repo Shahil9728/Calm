@@ -79,8 +79,11 @@
     text-align: left;
 }
 
+.MuiCollapse-root {
+    width: 100% !important;
+}
 .css-pwcg7p-MuiCollapse-root {
-    width: 100%;
+    width: 100% !important;
 }
 
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
