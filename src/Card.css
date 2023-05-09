@@ -82,6 +82,7 @@
 .MuiCollapse-root {
     width: 100% !important;
 }
+
 .css-pwcg7p-MuiCollapse-root {
     width: 100% !important;
 }
@@ -164,6 +165,57 @@ ion-icon {
 
 
 .apexcharts-tooltip {
-    background: #000000  !important;
+    background: #000000 !important;
     color: white;
+}
+
+@media (max-width:900px) {
+
+    .card-div
+    {
+        margin: 1rem !important;
+        padding: 1rem !important;
+    }
+
+    .graph {
+        display: none;
+    }
+
+    .card-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-text {
+        font-size: 1rem;
+        top: 50% !important;
+        left: 20% !important;
+    }
+    .card-heading
+    {
+        font-size: 1rem;
+    }
+
+    .time-head
+    {
+        font-size: 0.65rem;
+    }
+
+    ion-icon
+    {
+        font-size: 20px;
+    }
+    .pause
+    {
+        padding: 0.2rem;
+    }
+    .pause button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-div
+    {
+        gap: 1rem;
+    }
 }
