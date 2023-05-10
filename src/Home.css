@@ -4,3 +4,10 @@ body
     background-size: cover;
     height: auto;
 }
+
+@media (max-width:900px) {
+    body
+    {
+        height: 100vh;
+    }
+}
