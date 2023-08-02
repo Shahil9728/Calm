@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Shahil9728/Calm">
-    <img src="public/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Shahil9728/Calm/assets/96991517/b4283cbe-ca51-4bb0-87ae-c827b078ef14" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center"><a href="https://calmyou.netlify.app" target="_blank">Calm</a></h3>
