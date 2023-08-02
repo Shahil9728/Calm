@@ -46,10 +46,11 @@ npm run start
 <!-- IMAGES -->
 ### WEBSITe SCREENSHOTS
 
-![Alt image](public/ss1.png)
+![Alt image](https://github.com/Shahil9728/Calm/assets/96991517/44d437d2-9da7-449a-8440-cc7dc0ef1753)
 
 <br/>
 
+![Alt image](https://github.com/Shahil9728/Calm/assets/96991517/6a18cbe2-5ee1-4be4-b03b-853320cf9764)
 
 ### Built With
 
